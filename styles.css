@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	/* margin-top: 50px; */
+	padding: 0;
+	box-sizing: border-box;
+}
+/* #48246e */
+h1 {
+	color: rgb(58, 84, 180);
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 32px;
+	margin-bottom: 28px;
+}
+
+.sidenav {
+	height: 100%;
+	width: 280px; /* Set the width of the sidebar */
+	/* position: fixed; */
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin-top: 160px;
+
+	margin-left: 10px;
+	overflow-x: hidden;
+}
+
+.sidenav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: rgb(58, 84, 180);
+	display: block;
+	background-color: #3a54b409;
+	z-index: 2;
+	padding: 15px;
+	margin: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+.sidenav a:hover {
+	color: grey;
+	border-left: 3px solid #3a54b4;
+}
+
+.sidenav a:active {
+	color: rgb(58, 84, 180);
+	border-left: 3px solid #3a54b4;
+}
+
+.main {
+	margin-left: 280px;
+	padding: 100px;
+	line-height: 35px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+}
+
+/* .sidenav div {
+	opacity: 0.2;
+} */
+
+.main > li {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-weight: 500;
+	color: rgb(58, 84, 180);
+}
+
+.active {
+	color: rgb(58, 84, 180);
+	border-left: 3px solid #3a54b4;
+}
